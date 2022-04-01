@@ -13,6 +13,8 @@ fun main() {
     scania.identity()
     var totalFees=harrier.calculatePakingFees(10)
     println(totalFees)
+    var maxTrip = scania.maxTripFare(1000.00)
+    println(maxTrip)
 
 }
 
